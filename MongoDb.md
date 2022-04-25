@@ -2,8 +2,9 @@
 
 <details>
   
-<summary> MongoDB service not starting after VM instance reboot </summary>
+  <summary> <ins>MongoDB service not starting after VM instance reboot</ins> </summary>
 
+  
 Context: The MongoDB VMware instances cluster has been created via tar archive, on a separate user "mongo". The "start_mongo" script is not being run upon reboot.
 
 Diagnosis: The log files of microservice shows connection issue with the DB server; as well as other VMs in the cluster.
