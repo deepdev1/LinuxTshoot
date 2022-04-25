@@ -2,7 +2,7 @@
 
 <details>
   
-<summary> MongoDB VM instances not starting the on reboot </summary>
+<summary> MongoDB service not starting after VM instance reboot </summary>
 
 Context: The MongoDB VMware instances cluster has been created via tar archive, on a separate user "mongo". The "start_mongo" script is not being run upon reboot.
 
